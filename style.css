@@ -1,0 +1,87 @@
+.centered--content{
+    justify-content: center;
+    width: 27rem;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pd-5{
+    padding: 0.6rem 0;
+}
+
+.mg-r{
+    margin-right: 0.5rem;
+}
+
+.mg-t{
+    margin-top: 0.5rem;
+}
+
+.agree{
+    font-size: var(--fs-sm);
+    margin-top: 0.5rem;
+}
+
+.undline{
+    border-bottom: 1px dotted var(--color-neutral-500);
+}
+
+.title{
+    text-align: center;
+}
+.select{
+    position: absolute;
+    background-color: white;
+    background-image: url("./drop\ down\ arrow.avif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    border: none;
+    width: 2.5rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.phone--container{
+    display: flex;
+    padding: 0.3rem 2px;
+    align-items: center;
+}
+
+.phone--input{
+    outline: none;
+    border: none;
+    height: inherit;
+    width: inherit;
+    border-radius: 0.5rem;
+    padding-left: 3.2rem;
+    font-size: 1rem;
+}
+
+.text-area{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.button{
+    width: 100%;
+}
+
+.button--submit{
+    font-size: var(--fs-sm);
+    background-color: var(--color-primary-600);
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}

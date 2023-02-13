@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   <title>Vendoorr</title>
+   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+   <link rel="stylesheet" href="https://test.vendoorr.com/assets/index.a9e50c6b.css">
+   <link rel="stylesheet" href="style.css">
+   <style>
+    .text-input{
+        width: 100%;
+    }
+   </style>
+</head>
+<body>
+    
+    <section class="section">
+        <div class="container centered--content">
+            <div class="title">
+                <h2>Contact Us</h2>
+            </div>
+
+            <div class="name pd-5 flex--container">
+                <div class="first--name mg-r">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" class="text-input mg-t">
+                </div>
+                <div class="last--name">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" name="last--name" class="text-input mg-t">
+                </div>
+            </div>
+
+            <div class="email pd-5">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="text-input mg-t">
+            </div>
+
+            <div class="tel pd-5">
+                <label for="tel">Phone number:</label>
+
+                <div class="text-input mg-t phone--container">
+                    <select name="country" id="select--country" class="select">
+                        <option value="US">US</option>
+                        <option value="GH">GH</option>
+                        <option value="NG">NG</option>
+                        <option value="UK">UK</option>
+                    </select>
+                    <input type="tel" name="tel" id="tel" class="phone--input">
+                </div>
+            </div>
+
+            <div class="message">
+                <label for="message">Message:</label>
+                <textarea name="message" draggable="false" id="message" rows="5" class="text-input text-area mg-t" placeholder="Leave us a message..."></textarea>
+            </div>
+
+            <div class="agree">
+                <input type="checkbox" id="checkbox">
+                <span>You aagree to our friendly <span class="undline">privacy policy</span></span>
+            </div>
+
+            <div class="button">
+                <p class="button--submit">Send Message</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
